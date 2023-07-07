@@ -1,0 +1,51 @@
+body{
+    display:flex;
+    flex-direction: column;
+}
+
+header{
+    display:flex;
+    align-items:center;
+    gap:200px;
+    height: 60px;
+    width:100%;
+}
+header>ul{
+    margin-left: auto;
+    position:relative;
+    top:20px;
+}
+
+header>ul>li>a:hover{
+    color:blue;
+}
+
+header>h1:hover{
+    color:blue;
+}
+
+main{
+    display:flex;
+    flex-direction: row;
+    flex:auto;
+}
+
+article{
+    flex:2;
+    justify-content: space-between;
+    overflow-y: auto;
+}
+
+article>.tweet{
+    text-decoration: none;
+    background-color:blue;
+    color:white;
+    margin-top: 20px;
+    padding:10px;
+    border-radius: 4px;
+}
+
+aside{
+ flex:1;
+ overflow-y: auto;
+}
